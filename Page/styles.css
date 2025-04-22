@@ -45,9 +45,7 @@ h1 {
     margin: 30px;
     border: 1px solid black;
 }
-.form{
-    margin-top: 80px;
-}
+
 #anime{
     width: 50%;
     margin: 25px;
@@ -59,9 +57,13 @@ h1 {
     text-align: center;
     width: 50%;
     margin: 25px;
+    margin-left: 350px;
     padding: 20px;
     border: 1px solid rgb(41, 37, 37);
     border-radius: 20px;
     background-color: aliceblue;
     color: brown;
+}
+.radio{
+    justify-content: center;
 }

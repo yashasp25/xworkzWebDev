@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>JavaScript program to convert temperatures to and from celsius, fahrenheit</title>
+    <script> function TC(N) {
+            N = parseFloat(N);
+            document.getElementById("outputFahrenheit").innerHTML = (N- 32) / 1.8;
+        }
+        function TC1(N1) {
+            N1 = parseFloat(N1); 
+            document.getElementById("outputCelsius").innerHTML = (N1 * 1.8) + 32;
+        }
+    </script>
+</head>
+
+<body>
+    <p><label> Fahrenheit </label>
+        <input Id="Faherenheit" type="number" placeholder="Fahrenheit" oninput="TC(this.value)"
+            onchange="TC(this.value)"></p>
+    <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+   
+    
+    <p><label> Celsius </label>
+        <input id="Celsius" type="number" placeholder="Celsius" oninput="TC1(this.value)" onchange="TC1(this.value)">
+    </p>
+    <p> Celsius: <span id="outputCelsius"></span></p>
+</body>
+</html>

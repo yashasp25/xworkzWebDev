@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function onClick(){
+            const d=new Date();
+            document.getElementById("demo").innerHTML = d.getFullYear();
+            console.log(d.getDate());
+            console.log(d.getDay());
+            console.log(d.getHours());
+            console.log(d.getMonth());
+            console.log(d.getSeconds());
+            console.log(d.getTime());
+            console.log(d.getTimezoneOffset());
+            
+            document.getElementById("demo1").innerHTML = d;
+
+           
+        }
+    </script>
+</head>
+<body>
+    <h1>Javascript dates</h1>
+    <h2>Using new date</h2>
+    <button onclick="onClick()">Click</button>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+</body>
+</html>

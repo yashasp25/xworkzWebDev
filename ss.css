@@ -1,0 +1,23 @@
+p {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    -webkit-animation: changeColor 8s infinite;
+    animation: changeColor 8s infinite;
+  }
+  
+  @-webkit-keyframes changeColor {
+    0% { background-color: blue; }
+    25% { background-color: yellow; }
+    50% { background-color: green; }
+    75% { background-color: red; }
+    100% { background-color: black; } 
+  }
+
+  @keyframes changeColor {
+    0% { background-color: blue; }
+    25% { background-color: yellow; }
+    50% { background-color: green; }
+    75% { background-color: red; }
+    100% { background-color: black; } 
+  }
